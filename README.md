@@ -28,4 +28,4 @@ Você pode vizualizar o layout do projeto através
 <img src="./github/preview.png" alt="Demonstração do Projeto" width="100%"/>
 
 </P>
->>>>>>> 49bc02946b62f6269e4f013db6a6c3f7ef2fe7ee
+
