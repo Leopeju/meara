@@ -1,100 +1,173 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEARA - Sabor Para Compartilhar!</title>
+    <style>
+      /* Estilos CSS podem ser adicionados aqui */
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+      header {
+        padding: 20px;
+        height:max-content;
+        background-image:url(./assets/meara.jpg)
+        
+      }
 
-    <link rel="stylesheet" href="./styles.css" />
+      h1 {
+        font-size: 32px;
+        margin: 0;
+      }
 
-    <title>NLW Spacetime</title>
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      nav ul li {
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 50px;
+      }
+
+      h2 {
+        color: #688080;
+        font-size: 28px;
+        margin: 0 0 20px 0;
+      }
+
+      h3 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
   </head>
-  <body>
-    <aside>
-      <img src="./assets/logo.svg" alt="Logo NLW Spacetime" />
-      <img src="./assets/leonardo.jpeg" alt="Foto do Leonardo" />
+  
+
+ 
+    <header><br>
+      <h1><center> MEARA</h1>
+        <h1><center>Sabor Para Compartilhar!</h1>
+      <nav>
+        <ul><h3>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul></h3>
+      </nav>
+    </header>
+
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
       <p>
-        Cápsula do Tempo de <br />
-        <strong>Leonardo de Moura</strong>
+        A MEARA é uma empresa apaixonada por lasanhas. Nossas lasanhas são
+        cuidadosamente preparadas com ingredientes frescos e selecionados para
+        garantir o melhor sabor e qualidade para nossos clientes.
+      </p>
+      <p>
+        Com uma variedade de sabores e opções, oferecemos lasanhas clássicas e
+        vegetarianas que são perfeitas para qualquer ocasião. Nossa missão é
+        levar até você uma experiência gastronômica única e deliciosa!
+      </p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <h3>Lasanha De Frango</h3>
+      <img src="./assets/frango.jpeg" alt="Lasanha Clássica" height="150" width="300"/>
+      <img src="./assets/frango2.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <img src="./assets/sabores.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+
+      <p>
+        Nossa lasanha clássica é preparada com massa fresca, molho de tomate
+        caseiro, queijos deliciosos e delicioso peito de frango. Cada
+        camada é uma explosão de sabor que vai te deixar com água na boca!
       </p>
 
-      <span>Feito com 💜 no NLW da Rocketseat </span>
-    </aside>
+      <h3>Lasanha Vegetariana</h3>
+      <img src="./assets/vegetariana.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <img src="./assets/vegetariana2.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <img src="./assets/sabores.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <p>
+        Para os amantes de vegetais, oferecemos uma lasanha vegetariana feita
+        com uma seleção de legumes frescos, queijos derretidos e um toque de
+        ervas aromáticas. É uma opção saudável e saborosa para todos apreciarem!
+      </p>
+      <h3>Lasanha Bolonhesa</h3>
+      <img src="./assets/bolognesa.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <img src="./assets/bolognesa2.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <img src="./assets/sabores.jpeg" alt="Lasanha Vegetariana" height="150" width="300"/>
+      <p>
+        Massa fresca, molho de carne suculento e queijos derretidos. Uma combinação perfeita de sabores que derretem na boca. Uma explosão de prazer gastronômico em cada garfada!
+    </section>
 
-    <nav>
-      <a
-        href="https://www.youtube.com/watch?v=3nz5HkUJaVU"
-        target="_blank"
-        class="memory"
-      >
-        <small>20 de Março de 2023</small>
-        <h1>Jornada do Zero à Primeira Vaga</h1>
-        <div>
-        <img
-        
-          src="./assets/jornada.png"
-          alt="Rodrigo e Mayk apresentando o evento Jornada do Zero à Primeira Vaga"
-        />
-        </div>
-        <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique...
-        </p>
-      </a>
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <p>
+        Estamos ansiosos para atender você! Entre em contato conosco para fazer
+        um pedido, tirar dúvidas ou receber mais informações sobre nossas
+        lasanhas.
+      </p>
+      <p><img src="./assets/zap.jpg"  width="30" hight="30" align="left" hspace="20" vspace="-7"/> (54) 99915-9937</p>
+        <h2>
+<p><img src="./assets/gmail.png"  width="30" hight="30" align="left" hspace="20" vspace="7"/>
+      
+<link><a href="https://mail.google.com/" >Email</a></link>
+      </h2>
+      </p>
 
-      <a
-        href="https://www.youtube.com/watch?v=3nz5HkUJaVU"
-        target="_blank"
-        class="memory"
-      >
-        <small>20 de Março de 2023</small>
-        <h1>Jornada do Zero à Primeira Vaga</h1>
-        <div>
-        <img
-        
-          src="./assets/jornada.png"
-          alt="Rodrigo e Mayk apresentando o evento Jornada do Zero à Primeira Vaga"
-        />
-        </div>
-        <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique...
-        </p>
-      </a>
+        <h2>
+<p><img src="./assets/instagram.34x34 (1).png" width ="30" height="30" align="left"  vspace="7" hspace="20"/>
 
-      <a
-        href="https://www.youtube.com/watch?v=3nz5HkUJaVU"
-        target="_blank"
-        class="memory"
-      >
-        <small>20 de Março de 2023</small>
-        <h1>Jornada do Zero à Primeira Vaga</h1>
-        <div>
-        <img
-          src="./assets/jornada.png"
-          alt="Rodrigo e Mayk apresentando o evento Jornada do Zero à Primeira Vaga"
-        />
-        </div>
-        <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique...
-        </p>
-      </a>
-    </nav>
+<link><a href="https://www.instagram.com/meara_saborparacompartilhar/">MEARA</a></link>
+</h2>
+</p>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2023 MEARA - Sabor Para Compartilhar!. Todos os direitos reservados.
+        <p style="text-align:right;">by Cheff Ketlin Benelli. 👩‍🍳 </p>
+      </p>
+    
+    </footer>
   </body>
 </html>
